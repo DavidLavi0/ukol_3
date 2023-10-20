@@ -11,42 +11,19 @@ main{
 .pozadi{
     background-color: rgb(51, 212, 212);
     margin: 20px;
-    padding: 20px;
+    padding: 25px;
     width: 400px;
     border-style: dashed;
     border-radius: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
-.prihlaseni{
-    display: flex;
-    justify-content: center;
-}
 
-.jmeno{
-    display: flex;
-    justify-content: center;
-}
-.heslo{
-    display: flex;
-    justify-content: center;
-}
 .button{
     display: flex;
     justify-content: space-between;
-    margin: 10px;
 }
 
 .buttons{
-    background-color: rgb(7, 255, 90);
-    padding: 6px;
-    text-decoration: none;
-    color: black;
-    border-radius: 15px;
-    border-style: dotted;
-    font-weight: bold;
-}
-
-.buttons2{
     background-color: yellow;
     padding: 6px;
     text-decoration: none;
@@ -54,14 +31,25 @@ main{
     border-radius: 15px;
     border-style: dotted;
     font-weight: bold;
+    margin: 10px;
+    
 }
-
-.buttons3{
-    background-color: red;
+.buttons2{
+    background-color: rgb(16, 211, 16);
     padding: 6px;
     text-decoration: none;
     color: black;
     border-radius: 15px;
     border-style: dotted;
     font-weight: bold;
+    margin: 10px;
+}
+label{
+    text-align: left;
+    width: 100px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
 }

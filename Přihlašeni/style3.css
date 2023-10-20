@@ -17,51 +17,34 @@ main{
     border-radius: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
-.prihlaseni{
-    display: flex;
-    justify-content: center;
-}
 
-.jmeno{
-    display: flex;
-    justify-content: center;
+.buttons{
+    background-color: rgb(201, 221, 17);
+    padding: 6px;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    border-style: dotted;
+    font-weight: bold;
 }
-.heslo{
-    display: flex;
-    justify-content: center;
-}
+.buttons2{
+    background-color: rgb(5, 196, 37);
+    padding: 6px;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    border-style: dotted;
+    font-weight: bold;
+    }
 .button{
     display: flex;
     justify-content: space-between;
-    margin: 10px;
 }
-
-.buttons{
-    background-color: rgb(7, 255, 90);
-    padding: 6px;
-    text-decoration: none;
-    color: black;
-    border-radius: 15px;
-    border-style: dotted;
-    font-weight: bold;
+.flex{
+    display: flex;
+    justify-content: center;
 }
-
-.buttons2{
-    background-color: yellow;
-    padding: 6px;
-    text-decoration: none;
-    color: black;
-    border-radius: 15px;
-    border-style: dotted;
-    font-weight: bold;
-}
-
-.buttons3{
-    background-color: red;
-    padding: 6px;
-    text-decoration: none;
-    color: black;
-    border-radius: 15px;
-    border-style: dotted;
-    font-weight: bold;
+label{
+    text-align: left;
+    width: 100px;
 }
